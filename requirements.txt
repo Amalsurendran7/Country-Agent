@@ -1,0 +1,21 @@
+# Core framework
+langgraph
+langchain
+langchain-core
+
+# Together.ai native SDK — used directly for LLM calls (no langchain wrapper)
+together
+
+# Validation & settings
+pydantic
+pydantic-settings
+
+# API server
+fastapi
+uvicorn[standard]
+
+# HTTP client (REST Countries API)
+httpx
+
+# Env loading
+python-dotenv
